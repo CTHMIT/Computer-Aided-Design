@@ -1,10 +1,10 @@
 
 ##  Berkeley SIS install
-
+```shell
   sudo dpkg -i sis.deb
   sudo apt install -y make gcc bison flex build-essential
   export CFLAGS=-std=gnu90
-
+```
 ## Additional libraries (if needed):
 ```shell
 ./configure prefix=/usr/local --without-x

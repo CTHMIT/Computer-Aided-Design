@@ -32,14 +32,15 @@ foreach ($file in $files) {
 
 The algorithm starts by reading the matrix's dimensions X and Y, and the weights of the columns.
 The matrix is initialized and filled based on the input, where pairs (x, y) indicate that row x is covered by column y.
-We then determine the essential columns. Essential columns are those that are the only columns covering a particular row. 
+We then determine the essential columns. 
+Essential columns are those that are the only columns covering a particular row. 
 We should always include these in our solution set as they are the only way to cover those specific rows.
 With all this setup done, the Cost() function is called to start the recursive search for the best solution.
 Finding the solutions, Printed out and memory freed.
 
 ## Note:
 
-The function Cost() uses backtracking that make a choice and recurse with that choice, and then undo that choice (backtrack) and make a different choice. 
+The function Cost() uses backtracking which makes a choice and recurses with that choice, and then undo that choice (backtrack) and makes a different choice. 
 Selecting a column then find the optimal combination of columns.
 Memory is dynamically allocated for various arrays and matrices using malloc(), and free this memory at the end of the program to avoid memory leaks.
 

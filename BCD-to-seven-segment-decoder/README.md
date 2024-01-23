@@ -5,7 +5,7 @@
   sudo apt install -y make gcc bison flex build-essential
   export CFLAGS=-std=gnu90
 
-##Additional libraries (if needed):
+## Additional libraries (if needed):
   ./configure prefix=/usr/local --without-x
   make
   sudo make install

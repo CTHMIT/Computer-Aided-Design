@@ -16,7 +16,8 @@ apt-cache search g++ | grep g++-
 sudo apt-get update
 sudo apt-get install mlocate
 locate app-defaults
-sudo apt install plocate
+sudo apt install locate
+./run.sh
 ```
 ## Parameter of the .pla
 - .i 14: Indicates that there are inputs.
@@ -33,11 +34,3 @@ sudo apt install plocate
 - -Dexact: This directs Espresso to use the exact minimization algorithm.
 - -Dqm: This directs Espresso to use the Quine-McCluskey minimization algorithm.
 
-
-## Set the run file
-```shell
-nano ~/.bashrc
-alias autorun='/path/to/your/run.sh'
-source ~/.bashrc
-run.sh
-```

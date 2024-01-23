@@ -7,12 +7,12 @@
 Execute the command on the terminal:
 
 ```shell
-gcc .\col_cover.c -o .\col_cover.exe
+gcc ./col_cover.c -o ./col_cover.exe
 $files = @('bench1.txt', 'bench2.txt', 'bench3.txt', 'bench4.txt', 'bench5.txt', 'bench6.txt')
 foreach ($file in $files) {
     Write-Host
     Write-Host "Reading $file..."
-    Get-Content $file | .\col_cover.exe
+    Get-Content $file | ./col_cover.exe
 }
 ```
 ## Data Structures and Variables:

@@ -15,6 +15,17 @@ foreach ($file in $files) {
     Get-Content $file | ./col_cover.exe
 }
 ```
+or 
+```
+files=("bench1.txt" "bench2.txt" "bench3.txt" "bench4.txt" "bench5.txt" "bench6.txt")
+
+# Loop through files and process them with the compiled program
+for file in "${files[@]}"; do
+    echo
+    echo "Reading $file..."
+    cat "$file" | ./col_cover
+done
+```
 ## Data Structures and Variables:
 
 - matrix: This is the input matrix of size X x Y. The value matrix[i][j] is 1 if row i is covered by column j, otherwise it's 0.

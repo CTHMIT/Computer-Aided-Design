@@ -17,6 +17,7 @@ sudo apt-get update
 sudo apt-get install mlocate
 locate app-defaults
 sudo apt install locate
+chmod +x ./path/to/local/run.sh
 ./run.sh
 ```
 ## Parameter of the .pla

@@ -21,7 +21,7 @@ files=("bench1.txt" "bench2.txt" "bench3.txt" "bench4.txt" "bench5.txt" "bench6.
 for file in "${files[@]}"; do
     echo
     echo "Reading $file..."
-    cat "$file" | ./col_cover
+    cat "$file" | ./col_cover.exe
 done
 ```
 ## Data Structures and Variables:

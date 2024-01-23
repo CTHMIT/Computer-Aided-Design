@@ -1,5 +1,5 @@
 
-## main sis to install
+##  Berkeley SIS install
 
   sudo dpkg -i sis.deb
   sudo apt install -y make gcc bison flex build-essential
@@ -27,7 +27,7 @@ chmod +x ./path/to/local/run.sh
 - .ob: Lists the labels for the output variables.
 - .p 1028: Indicates the number of product terms (rows) in the PLA.
 
-- "Real" The whole process takes about seconds in real time.
+- "Real" The whole process takes about seconds in real-time.
 - "User" time represents CPU time spent in in-process user mode (outside the core).
 - "sys" time represents the time spent in the system (core).
 

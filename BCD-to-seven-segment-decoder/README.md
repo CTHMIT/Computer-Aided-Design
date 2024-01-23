@@ -39,4 +39,5 @@ sudo apt install plocate
 nano ~/.bashrc
 alias autorun='/path/to/your/run.sh'
 source ~/.bashrc
+run.sh
 ```

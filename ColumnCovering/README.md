@@ -6,7 +6,7 @@
 
 Execute the command on the terminal:
 
-```PowerShell
+'''PowerShell
 gcc .\col_cover.c -o .\col_cover.exe
 $files = @('bench1.txt', 'bench2.txt', 'bench3.txt', 'bench4.txt', 'bench5.txt', 'bench6.txt')
 foreach ($file in $files) {
@@ -14,6 +14,7 @@ foreach ($file in $files) {
     Write-Host "Reading $file..."
     Get-Content $file | .\col_cover.exe
 }
+'''
 ##Data Structures and Variables:
 
 	matrix: This is the input matrix of size X x Y. The value matrix[i][j] is 1 if row i is covered by column j, otherwise it's 0.

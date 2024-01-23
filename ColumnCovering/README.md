@@ -13,7 +13,6 @@ foreach ($file in $files) {
     Write-Host
     Write-Host "Reading $file..."
     Get-Content $file | ./col_cover.exe
-}
 ```
 ## Data Structures and Variables:
 

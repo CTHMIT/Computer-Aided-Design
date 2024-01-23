@@ -6,17 +6,18 @@
   export CFLAGS=-std=gnu90
 
 ## Additional libraries (if needed):
-  - ./configure prefix=/usr/local --without-x
-  - make
-  - sudo make install
-  - sudo apt-get install libx11-dev libxt-dev
-  - apt-cache search gcc | grep gcc-
-  - apt-cache search g++ | grep g++-
-  - sudo apt-get update
-  - sudo apt-get install mlocate
-  - locate app-defaults
-  - sudo apt install plocate
-
+```shell
+./configure prefix=/usr/local --without-x
+make
+sudo make install
+sudo apt-get install libx11-dev libxt-dev
+apt-cache search gcc | grep gcc-
+apt-cache search g++ | grep g++-
+sudo apt-get update
+sudo apt-get install mlocate
+locate app-defaults
+sudo apt install plocate
+```
 ## Parameter of the .pla
 .i 14: Indicates that there are inputs.
 .o 8: Indicates that there are outputs.
@@ -34,6 +35,8 @@
 
 
 ## Set the run file
-  nano ~/.bashrc
-  alias autorun='/path/to/your/run.sh'
-  source ~/.bashrc
+```shell
+nano ~/.bashrc
+alias autorun='/path/to/your/run.sh'
+source ~/.bashrc
+```

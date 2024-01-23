@@ -18,8 +18,6 @@ foreach ($file in $files) {
 or 
 ```
 files=("bench1.txt" "bench2.txt" "bench3.txt" "bench4.txt" "bench5.txt" "bench6.txt")
-
-# Loop through files and process them with the compiled program
 for file in "${files[@]}"; do
     echo
     echo "Reading $file..."

@@ -1,0 +1,4 @@
+read_pla f_dc.pla
+espresso
+write_pla f_dc_out.pla
+exit

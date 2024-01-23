@@ -1,0 +1,4 @@
+read_pla apex5.pla
+espresso
+write_pla apex5_out.pla
+exit

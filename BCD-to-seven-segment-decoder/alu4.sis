@@ -1,0 +1,4 @@
+read_pla alu4.pla
+espresso
+write_pla alu4_out.pla
+exit

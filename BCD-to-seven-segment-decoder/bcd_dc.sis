@@ -1,0 +1,4 @@
+read_pla bcd_dc.pla
+espresso
+write_pla bcd_dc_out.pla
+exit

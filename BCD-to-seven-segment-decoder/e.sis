@@ -1,0 +1,4 @@
+read_pla e.pla
+espresso
+write_pla e_out.pla
+exit

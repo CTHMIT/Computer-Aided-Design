@@ -1,0 +1,4 @@
+read_pla alu4.pla
+espresso -Dexact
+write_pla alu4_dex_out.pla
+exit

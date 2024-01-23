@@ -17,6 +17,9 @@ sudo apt-get update
 sudo apt-get install mlocate
 locate app-defaults
 sudo apt install locate
+```
+# Run the run.sh
+```shell
 chmod +x ./path/to/local/run.sh
 ./run.sh
 ```

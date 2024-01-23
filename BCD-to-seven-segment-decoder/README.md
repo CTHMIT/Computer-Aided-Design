@@ -19,19 +19,19 @@ locate app-defaults
 sudo apt install plocate
 ```
 ## Parameter of the .pla
-.i 14: Indicates that there are inputs.
-.o 8: Indicates that there are outputs.
-.ilb: Lists the labels for the input variables.
-.ob: Lists the labels for the output variables.
-.p 1028: Indicates the number of product terms (rows) in the PLA.
+- .i 14: Indicates that there are inputs.
+- .o 8: Indicates that there are outputs.
+- .ilb: Lists the labels for the input variables.
+- .ob: Lists the labels for the output variables.
+- .p 1028: Indicates the number of product terms (rows) in the PLA.
 
-"Real" The whole process takes about seconds in real time.
-"User" time represents CPU time spent in in-process user mode (outside the core).
-"sys" time represents the time spent in the system (core).
+- "Real" The whole process takes about seconds in real time.
+- "User" time represents CPU time spent in in-process user mode (outside the core).
+- "sys" time represents the time spent in the system (core).
 
--o eqntott: This option tells Espresso to output the result in equation format.
--Dexact: This directs Espresso to use the exact minimization algorithm.
--Dqm: This directs Espresso to use the Quine-McCluskey minimization algorithm.
+- -o eqntott: This option tells Espresso to output the result in equation format.
+- -Dexact: This directs Espresso to use the exact minimization algorithm.
+- -Dqm: This directs Espresso to use the Quine-McCluskey minimization algorithm.
 
 
 ## Set the run file

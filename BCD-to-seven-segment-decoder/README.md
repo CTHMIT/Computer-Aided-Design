@@ -40,7 +40,7 @@ chmod +x ./path/to/local/run.sh
 
 ## BCD Seven Segment
 ![image](https://github.com/CTHMIT/Computer-Aided-Design/assets/107465888/4c7d8a50-f0ce-4c45-a3dd-03532755a576)
-# Use espresso to simplify the two-level implementation of segments e and f. 
+## Use espresso to simplify the two-level implementation of segments e and f. 
 First ignore the Don't-care conditions (i.e., set the outputs to be 0 for input combinations 10 to 15), and then try to 
 exploit the Don't-cares. 
 ![image](https://github.com/CTHMIT/Computer-Aided-Design/assets/107465888/9baeda42-cd88-4cb0-88e1-c05784d94b27)
